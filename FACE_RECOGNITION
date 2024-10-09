@@ -1,0 +1,6 @@
+import cv2
+import face_recognitiom
+import os
+# Directory to store the known faces
+known_faces_dir = "known_faces"
+os.makedirs(known_faces_dir, exist_ok=True)
